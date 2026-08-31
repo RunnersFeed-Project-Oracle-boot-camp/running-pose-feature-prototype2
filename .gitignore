@@ -1,0 +1,23 @@
+.venv/
+.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.task
+*.ses
+
+# 촬영 원본과 개인 측정값은 로컬에서만 관리한다.
+PoC/run/**/*.mp4
+PoC/run/**/inputs/
+PoC/run/**/outputs/
+PoC/run/**/user_info.json
+
+# 실험 노트와 생성 문서는 배포 코드에서 제외한다.
+*.ipynb
+reports/
+output/
+tools/
+docs/
+.worktrees/

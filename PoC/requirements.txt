@@ -1,0 +1,12 @@
+# Python 3.12+
+# System dependency for video creation - ffmpeg (`brew install ffmpeg`)
+
+mmengine==0.10.7
+langchain-openai>=1.6.0
+numpy==2.5.2
+onnxruntime==1.29.0
+opencv-python==5.0.0.93
+python-dotenv>=1.0.0
+rtmlib==0.0.16
+torch==2.13.0
+tqdm==4.70.0

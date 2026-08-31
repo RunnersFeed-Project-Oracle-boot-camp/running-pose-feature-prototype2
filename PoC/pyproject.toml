@@ -1,0 +1,17 @@
+[project]
+name = "poc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-openai>=1.6.0",
+    "mmengine>=0.10.7",
+    "numpy>=2.3.0",
+    "onnxruntime>=1.29.0",
+    "opencv-python>=4.10.0",
+    "python-dotenv>=1.0.0",
+    "rtmlib>=0.0.16",
+    "torch>=2.13.0",
+    "tqdm>=4.70.0",
+]
