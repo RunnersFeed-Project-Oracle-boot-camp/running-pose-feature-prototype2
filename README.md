@@ -210,6 +210,13 @@ cd ~/Running_Projects/PoC
 
 테스트는 각도 계산, 착지 후보 탐색, 합성 러닝 데이터의 피처 스키마, 짧거나 빈 입력 처리, 로컬 리포트 생성을 확인합니다.
 
+## 직접 영상 대입
+
+```cd ~/Running_Projects/PoC
+  mkdir -p run/test1/input
+  cp "/영상이/있는/실제/경로/video.mp4" run/test1/input/
+```
+
 ## 분석 조건과 한계
 
 - 카메라는 움직이지 않고 주행 방향과 수직인 측면에 두는 것을 전제로 합니다.
